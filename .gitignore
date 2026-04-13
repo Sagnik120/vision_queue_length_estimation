@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Environment variables / secrets
+.env
+*.env
+.env.local
+.env.production
+
+# Model weights (large files)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Output files (generated at runtime)
+outputs/
+outputs/*.csv
+outputs/*.mp4
+outputs/*.png
+outputs/*.jpg
+
+# Input videos (large files)
+data/videos/
+data/*.mp4
+data/*.avi
+data/*.mov
+
+# Ground truth (user-specific)
+data/ground_truth.csv
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Streamlit cache
+.streamlit/
+
+# Byte-compiled / optimized
+*.pyc
